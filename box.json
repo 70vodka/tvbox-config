@@ -2,34 +2,38 @@
   "version": "1.0",
   "categories": [
     {
-      "name": "直播頻道",
+      "name": "台灣直播頻道",
       "channels": [
         {"name": "台視", "url": "http://ivi.bupt.edu.cn/hls/ts.m3u8"},
         {"name": "中視", "url": "http://ivi.bupt.edu.cn/hls/ctv.m3u8"},
         {"name": "華視", "url": "http://ivi.bupt.edu.cn/hls/cts.m3u8"},
         {"name": "民視", "url": "http://ivideo.tfn.net.tw/live/fts_800k.m3u8"},
         {"name": "公共電視", "url": "http://ppts-dns.pts.org.tw/ppts_hls/ppts1.m3u8"},
-        {"name": "TVBS", "url": "http://hms-hls-live.cdn.hinet.net/live/tvbs_hls.smil/playlist.m3u8"}
+        {"name": "TVBS", "url": "http://hms.cdnvideo.com.tw/tvbstvbs/playlist.m3u8"},
+        {"name": "東森新聞", "url": "http://liveset-vod.emome.net.tw/etnewslive/playlist.m3u8"}
+      ]
+    },
+    {
+      "name": "成人直播頻道",
+      "channels": [
+        {"name": "JavStreaming1", "url": "http://45.138.252.123:8080/live/jav1/index.m3u8"},
+        {"name": "JavStreaming2", "url": "http://45.138.252.123:8080/live/jav2/index.m3u8"},
+        {"name": "AsianAdultHD", "url": "http://173.212.234.91:1935/live/stream/playlist.m3u8"}
       ]
     },
     {
       "name": "電影點播",
       "channels": [
-        {"name": "免費電影1", "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"},
-        {"name": "免費電影2", "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"}
-      ]
-    },
-    {
-      "name": "追劇點播",
-      "channels": [
-        {"name": "熱門連續劇", "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.m3u8"}
+        {"name": "免費電影Sintel", "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"},
+        {"name": "免費電影Big Buck Bunny", "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"},
+        {"name": "追劇示範1", "url": "https://wowzaec2demo.streamlock.net/live/bigbuckbunny/playlist.m3u8"}
       ]
     },
     {
       "name": "動漫點播",
       "channels": [
-        {"name": "免費動漫", "url": "https://anime4u.tv/streams/episode-1.m3u8"},
-        {"name": "經典動畫", "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"}
+        {"name": "動漫示範1", "url": "https://cdn.animestreaming.net/sample/anime1.m3u8"},
+        {"name": "動漫示範2", "url": "https://cdn.animestreaming.net/sample/anime2.m3u8"}
       ]
     }
   ]
