@@ -2,39 +2,34 @@
   "version": "1.0",
   "categories": [
     {
-      "name": "台灣直播",
+      "name": "直播頻道",
       "channels": [
-        { "name": "台視", "url": "http://ivi.bupt.edu.cn/hls/ts.m3u8" },
-        { "name": "中視", "url": "http://ivi.bupt.edu.cn/hls/ctv.m3u8" },
-        { "name": "華視", "url": "http://ivi.bupt.edu.cn/hls/cts.m3u8" }
+        {"name": "台視", "url": "http://ivi.bupt.edu.cn/hls/ts.m3u8"},
+        {"name": "中視", "url": "http://ivi.bupt.edu.cn/hls/ctv.m3u8"},
+        {"name": "華視", "url": "http://ivi.bupt.edu.cn/hls/cts.m3u8"},
+        {"name": "民視", "url": "http://ivideo.tfn.net.tw/live/fts_800k.m3u8"},
+        {"name": "公共電視", "url": "http://ppts-dns.pts.org.tw/ppts_hls/ppts1.m3u8"},
+        {"name": "TVBS", "url": "http://hms-hls-live.cdn.hinet.net/live/tvbs_hls.smil/playlist.m3u8"}
       ]
     },
     {
-      "name": "成人頻道",
+      "name": "電影點播",
       "channels": [
-        { "name": "成人頻道1", "url": "http://example.com/adult1.m3u8" },
-        { "name": "成人頻道2", "url": "http://example.com/adult2.m3u8" }
+        {"name": "免費電影1", "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"},
+        {"name": "免費電影2", "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"}
       ]
     },
     {
-      "name": "點播-電影",
+      "name": "追劇點播",
       "channels": [
-        { "name": "電影1", "url": "http://example.com/movie1.mp4" },
-        { "name": "電影2", "url": "http://example.com/movie2.mp4" }
+        {"name": "熱門連續劇", "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.m3u8"}
       ]
     },
     {
-      "name": "點播-追劇",
+      "name": "動漫點播",
       "channels": [
-        { "name": "追劇1", "url": "http://example.com/drama1.mp4" },
-        { "name": "追劇2", "url": "http://example.com/drama2.mp4" }
-      ]
-    },
-    {
-      "name": "點播-動漫",
-      "channels": [
-        { "name": "動漫1", "url": "http://example.com/anime1.mp4" },
-        { "name": "動漫2", "url": "http://example.com/anime2.mp4" }
+        {"name": "免費動漫", "url": "https://anime4u.tv/streams/episode-1.m3u8"},
+        {"name": "經典動畫", "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"}
       ]
     }
   ]
