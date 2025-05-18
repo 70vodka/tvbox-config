@@ -1,0 +1,10 @@
+{
+  "sites": [
+    {
+      "key": "av1",
+      "name": "成人示範源",
+      "type": 1,
+      "api": "https://api.91porn.com"
+    }
+  ]
+}
