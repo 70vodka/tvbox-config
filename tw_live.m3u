@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="ctitv" group-title="台灣頻道",中天新聞
+http://38.123.222.43:8880/udp/239.1.1.5:5140
+#EXTINF:-1 tvg-id="ftv" group-title="台灣頻道",民視新聞
+http://38.123.222.43:8880/udp/239.1.1.6:5140
