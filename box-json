@@ -1,0 +1,12 @@
+{
+  "urls": [
+    {
+      "url": "https://70vodka.github.io/tvbox-config/sources/vod.json",
+      "name": "【點播】電影/劇集/成人"
+    },
+    {
+      "url": "https://70vodka.github.io/tvbox-config/sources/live_m3u.txt",
+      "name": "【直播】台灣頻道 + 成人"
+    }
+  ]
+}
