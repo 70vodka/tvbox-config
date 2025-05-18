@@ -1,0 +1,10 @@
+{
+  "sites": [
+    {
+      "key": "mo1",
+      "name": "電影示範源",
+      "type": 1,
+      "api": "https://api.xiaoya.pro/xiaoya"
+    }
+  ]
+}
