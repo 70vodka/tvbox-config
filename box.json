@@ -12,32 +12,30 @@
     {
       "name": "成人頻道",
       "channels": [
-        { "name": "成人頻道1", "url": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4" },
-        { "name": "成人頻道2", "url": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4" }
+        { "name": "成人頻道1", "url": "http://example.com/adult1.m3u8" },
+        { "name": "成人頻道2", "url": "http://example.com/adult2.m3u8" }
       ]
     },
     {
       "name": "點播-電影",
       "channels": [
-        { "name": "電影頻道1", "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" },
-        { "name": "電影頻道2", "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4" }
+        { "name": "電影1", "url": "http://example.com/movie1.mp4" },
+        { "name": "電影2", "url": "http://example.com/movie2.mp4" }
       ]
     },
     {
       "name": "點播-追劇",
       "channels": [
-        { "name": "追劇頻道1", "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4" },
-        { "name": "追劇頻道2", "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4" }
+        { "name": "追劇1", "url": "http://example.com/drama1.mp4" },
+        { "name": "追劇2", "url": "http://example.com/drama2.mp4" }
       ]
     },
     {
       "name": "點播-動漫",
       "channels": [
-        { "name": "動漫頻道1", "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" },
-        { "name": "動漫頻道2", "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4" }
+        { "name": "動漫1", "url": "http://example.com/anime1.mp4" },
+        { "name": "動漫2", "url": "http://example.com/anime2.mp4" }
       ]
     }
   ]
 }
-
-
