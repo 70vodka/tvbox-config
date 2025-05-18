@@ -1,40 +1,80 @@
 {
-  "version": "1.0",
-  "categories": [
-    {
-      "name": "台灣直播頻道",
-      "channels": [
-        {"name": "台視", "url": "http://ivi.bupt.edu.cn/hls/ts.m3u8"},
-        {"name": "中視", "url": "http://ivi.bupt.edu.cn/hls/ctv.m3u8"},
-        {"name": "華視", "url": "http://ivi.bupt.edu.cn/hls/cts.m3u8"},
-        {"name": "民視", "url": "http://ivideo.tfn.net.tw/live/fts_800k.m3u8"},
-        {"name": "公共電視", "url": "http://ppts-dns.pts.org.tw/ppts_hls/ppts1.m3u8"},
-        {"name": "TVBS", "url": "http://hms.cdnvideo.com.tw/tvbstvbs/playlist.m3u8"},
-        {"name": "東森新聞", "url": "http://liveset-vod.emome.net.tw/etnewslive/playlist.m3u8"}
-      ]
-    },
-    {
-      "name": "成人直播頻道",
-      "channels": [
-        {"name": "JavStreaming1", "url": "http://45.138.252.123:8080/live/jav1/index.m3u8"},
-        {"name": "JavStreaming2", "url": "http://45.138.252.123:8080/live/jav2/index.m3u8"},
-        {"name": "AsianAdultHD", "url": "http://173.212.234.91:1935/live/stream/playlist.m3u8"}
-      ]
-    },
-    {
-      "name": "電影點播",
-      "channels": [
-        {"name": "免費電影Sintel", "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"},
-        {"name": "免費電影Big Buck Bunny", "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"},
-        {"name": "追劇示範1", "url": "https://wowzaec2demo.streamlock.net/live/bigbuckbunny/playlist.m3u8"}
-      ]
-    },
-    {
-      "name": "動漫點播",
-      "channels": [
-        {"name": "動漫示範1", "url": "https://cdn.animestreaming.net/sample/anime1.m3u8"},
-        {"name": "動漫示範2", "url": "https://cdn.animestreaming.net/sample/anime2.m3u8"}
-      ]
-    }
+  "taiwan_channels": [
+    {"name": "台視", "url": "http://ivi.bupt.edu.cn/hls/ts.m3u8"},
+    {"name": "中視", "url": "http://ivi.bupt.edu.cn/hls/ctv.m3u8"},
+    {"name": "華視", "url": "http://ivi.bupt.edu.cn/hls/cts.m3u8"},
+    {"name": "民視", "url": "http://ivideo.tfn.net.tw/live/fts_800k.m3u8"},
+    {"name": "公共電視", "url": "http://ppts-dns.pts.org.tw/ppts_hls/ppts1.m3u8"},
+    {"name": "TVBS新聞", "url": "http://hms.cdnvideo.com.tw/tvbstvbs/playlist.m3u8"},
+    {"name": "東森新聞", "url": "http://liveset-vod.emome.net.tw/etnewslive/playlist.m3u8"},
+    {"name": "三立新聞", "url": "http://live.setn.com/live/hd/playlist.m3u8"},
+    {"name": "壹電視新聞", "url": "http://tv.ettoday.net/live/hd/playlist.m3u8"},
+    {"name": "年代新聞", "url": "http://livestream.yuan.tv/hd/playlist.m3u8"},
+    {"name": "八大綜合台", "url": "http://media.ohtv.com.tw/hls/8dah.m3u8"},
+    {"name": "民視台灣台", "url": "http://ivideo.tfn.net.tw/live/taiwan_ftv.m3u8"},
+    {"name": "華視教育文化台", "url": "http://live.htv.com.tw/edc.m3u8"},
+    {"name": "台灣三立台", "url": "http://live.setn.com/set3.m3u8"},
+    {"name": "中天新聞", "url": "http://ctitv-live1.ottcloud.tv/live/playlist.m3u8"},
+    {"name": "華視新聞台", "url": "http://live.htv.com.tw/news.m3u8"},
+    {"name": "台灣體育台", "url": "http://sports4.bbcplayer.com/playlist.m3u8"},
+    {"name": "年代綜合台", "url": "http://livestream.yuan.tv/general/playlist.m3u8"},
+    {"name": "客家電視台", "url": "http://hakka.tv.live/playlist.m3u8"},
+    {"name": "原住民族電視台", "url": "http://aboriginal.tv.live/playlist.m3u8"},
+    {"name": "TVBS歡樂台", "url": "http://tvbs_fun.ottcloud.tv/live/playlist.m3u8"},
+    {"name": "寰宇新聞台", "url": "http://globalnews.live/playlist.m3u8"},
+    {"name": "衛視中文台", "url": "http://star_tv_chinese.ottcloud.tv/live/playlist.m3u8"},
+    {"name": "緯來綜合台", "url": "http://videoway.com/live/wl.m3u8"},
+    {"name": "緯來育樂台", "url": "http://videoway.com/live/wlyl.m3u8"},
+    {"name": "緯來體育台", "url": "http://videoway.com/live/wlty.m3u8"},
+    {"name": "東森綜合台", "url": "http://etv.com.tw/live/etv_live.m3u8"},
+    {"name": "東森戲劇台", "url": "http://etvdrama.com.tw/live/playlist.m3u8"},
+    {"name": "中視綜合台", "url": "http://ctv_general.live/playlist.m3u8"},
+    {"name": "三立都會台", "url": "http://settvurban.live/playlist.m3u8"},
+    {"name": "三立台灣台", "url": "http://settvtaiwan.live/playlist.m3u8"},
+    {"name": "八大戲劇台", "url": "http://8dahdrama.live/playlist.m3u8"},
+    {"name": "緯來電影台", "url": "http://videoway.com/live/wl_movie.m3u8"},
+    {"name": "HBO Taiwan", "url": "http://hbota_live/playlist.m3u8"},
+    {"name": "FOX Taiwan", "url": "http://foxtaiwan.live/playlist.m3u8"},
+    {"name": "衛視電影台", "url": "http://star_movie.live/playlist.m3u8"},
+    {"name": "民視新聞台", "url": "http://ftv_news.live/playlist.m3u8"},
+    {"name": "台灣大愛台", "url": "http://daaitv.live/playlist.m3u8"},
+    {"name": "寰宇新聞台", "url": "http://globalnews.live/playlist.m3u8"},
+    {"name": "鳳凰衛視", "url": "http://phoenixtv.live/playlist.m3u8"},
+    {"name": "壹電視綜合台", "url": "http://ettv_general.live/playlist.m3u8"},
+    {"name": "三立華劇台", "url": "http://setchinese.live/playlist.m3u8"},
+    {"name": "中視新聞台", "url": "http://ctvnews.live/playlist.m3u8"},
+    {"name": "東森新聞台", "url": "http://etvnews.live/playlist.m3u8"},
+    {"name": "台視新聞台", "url": "http://tsnews.live/playlist.m3u8"},
+    {"name": "年代新聞台", "url": "http://yuannews.live/playlist.m3u8"},
+    {"name": "公視新聞台", "url": "http://ptsnews.live/playlist.m3u8"},
+    {"name": "客家新聞台", "url": "http://hakkanews.live/playlist.m3u8"},
+    {"name": "原住民新聞台", "url": "http://aboriginalnews.live/playlist.m3u8"},
+    {"name": "台灣體育台", "url": "http://taiwansports.live/playlist.m3u8"},
+    {"name": "緯來體育台", "url": "http://videoway.com/live/wlty.m3u8"}
+  ],
+  "adult_channels": [
+    {"name": "JavStreaming1", "url": "http://45.138.252.123:8080/live/jav1/index.m3u8"},
+    {"name": "JavStreaming2", "url": "http://45.138.252.123:8080/live/jav2/index.m3u8"},
+    {"name": "AsianAdultHD", "url": "http://173.212.234.91:1935/live/stream/playlist.m3u8"},
+    {"name": "AdultChannel1", "url": "http://adult1.example.com/live/playlist.m3u8"},
+    {"name": "AdultChannel2", "url": "http://adult2.example.com/live/playlist.m3u8"},
+    {"name": "AdultChannel3", "url": "http://adult3.example.com/live/playlist.m3u8"},
+    {"name": "AdultChannel4", "url": "http://adult4.example.com/live/playlist.m3u8"},
+    {"name": "AdultChannel5", "url": "http://adult5.example.com/live/playlist.m3u8"},
+    {"name": "AdultChannel6", "url": "http://adult6.example.com/live/playlist.m3u8"},
+    {"name": "AdultChannel7", "url": "http://adult7.example.com/live/playlist.m3u8"},
+    {"name": "AdultChannel8", "url": "http://adult8.example.com/live/playlist.m3u8"},
+    {"name": "AdultChannel9", "url": "http://adult9.example.com/live/playlist.m3u8"},
+    {"name": "AdultChannel10", "url": "http://adult10.example.com/live/playlist.m3u8"},
+    {"name": "AdultChannel11", "url": "http://adult11.example.com/live/playlist.m3u8"},
+    {"name": "AdultChannel12", "url": "http://adult12.example.com/live/playlist.m3u8"},
+    {"name": "AdultChannel13", "url": "http://adult13.example.com/live/playlist.m3u8"},
+    {"name": "AdultChannel14", "url": "http://adult14.example.com/live/playlist.m3u8"},
+    {"name": "AdultChannel15", "url": "http://adult15.example.com/live/playlist.m3u8"},
+    {"name": "AdultChannel16", "url": "http://adult16.example.com/live/playlist.m3u8"},
+    {"name": "AdultChannel17", "url": "http://adult17.example.com/live/playlist.m3u8"},
+    {"name": "AdultChannel18", "url": "http://adult18.example.com/live/playlist.m3u8"},
+    {"name": "AdultChannel19", "url": "http://adult19.example.com/live/playlist.m3u8"},
+    {"name": "AdultChannel20", "url": "http://adult20.example.com/live/playlist.m3u8"}
   ]
 }
