@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="xxx1" group-title="成人頻道",AV Live 01
+http://example.com/stream/av01.m3u8
+#EXTINF:-1 tvg-id="xxx2" group-title="成人頻道",AV Live 02
+http://example.com/stream/av02.m3u8
