@@ -1,12 +1,6 @@
 {
   "sites": [
-    {
-      "name": "Jable",
-      "api": "https://api.1080zyku.com/inc/api.php"
-    },
-    {
-      "name": "AV01",
-      "api": "https://api.av01.cyou/api.php/provide/vod/"
-    }
+    {"name": "AV1", "api": "https://api.avsource.site/adult1"},
+    {"name": "AV2", "api": "https://backup.nsfwsource.com/adult2"}
   ]
 }

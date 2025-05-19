@@ -5,7 +5,7 @@
       "key": "movie",
       "name": "電影館",
       "type": 3,
-      "api": "./movie.json",
+      "api": "https://raw.githubusercontent.com/70vodka/tvbox-config/main/movie.json",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -14,16 +14,16 @@
       "key": "anime",
       "name": "動漫場",
       "type": 3,
-      "api": "./anime.json",
+      "api": "https://raw.githubusercontent.com/70vodka/tvbox-config/main/anime.json",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "adult",
+      "key": "av",
       "name": "成人片庫",
       "type": 3,
-      "api": "./adult.json",
+      "api": "https://raw.githubusercontent.com/70vodka/tvbox-config/main/adult.json",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -32,11 +32,11 @@
   "lives": [
     {
       "group": "台灣頻道",
-      "channels": "./tw_live.m3u"
+      "channels": "https://raw.githubusercontent.com/70vodka/tvbox-config/main/tw_live.m3u"
     },
     {
       "group": "成人頻道",
-      "channels": "./adult_live.m3u"
+      "channels": "https://raw.githubusercontent.com/70vodka/tvbox-config/main/adult_live.m3u"
     }
   ],
   "parses": [

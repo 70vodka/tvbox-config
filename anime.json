@@ -1,8 +1,6 @@
 {
   "sites": [
-    {
-      "name": "番劇庫",
-      "api": "https://cj.lziapi.com/api.php/provide/vod/from/fm/"
-    }
+    {"name": "動漫1", "api": "https://api.my-tvbox.com/anime1"},
+    {"name": "動漫2", "api": "https://api.video-source.org/anime2"}
   ]
 }

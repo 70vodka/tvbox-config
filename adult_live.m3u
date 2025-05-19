@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Naughty TV", group-title="成人頻道", tvg-logo="",Naughty TV
-http://adultiptv.net:8080/live/naughtytv.m3u8
-#EXTINF:-1 tvg-name="RedHot", group-title="成人頻道", tvg-logo="",RedHot
-http://xxxstream.org/live/redhot123.m3u8
+#EXTINF:-1,AV直播1
+http://nsfw.stream1.net/live1.m3u8
+#EXTINF:-1,AV直播2
+http://nsfw.stream2.net/live2.m3u8

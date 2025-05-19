@@ -1,16 +1,6 @@
 {
   "sites": [
-    {
-      "name": "泥巴影院",
-      "api": "https://www.nivod.tv/api.php/provide/vod/"
-    },
-    {
-      "name": "非凡影視",
-      "api": "https://www.ffzyapi.com/api.php/provide/vod/"
-    },
-    {
-      "name": "速播資源",
-      "api": "https://suapi.qclm.top/api.php/provide/vod/"
-    }
+    {"name": "電影1", "api": "https://api.my-tvbox.com/movie1"},
+    {"name": "電影2", "api": "https://api.video-source.org/movie2"}
   ]
 }
