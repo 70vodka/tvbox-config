@@ -1,10 +1,8 @@
 {
   "sites": [
     {
-      "key": "an1",
-      "name": "動漫示範源",
-      "type": 1,
-      "api": "https://api.dandanplay.net"
+      "name": "番劇庫",
+      "api": "https://cj.lziapi.com/api.php/provide/vod/from/fm/"
     }
   ]
 }

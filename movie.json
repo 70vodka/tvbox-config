@@ -1,10 +1,16 @@
 {
   "sites": [
     {
-      "key": "mo1",
-      "name": "電影示範源",
-      "type": 1,
-      "api": "https://api.xiaoya.pro/xiaoya"
+      "name": "泥巴影院",
+      "api": "https://www.nivod.tv/api.php/provide/vod/"
+    },
+    {
+      "name": "非凡影視",
+      "api": "https://www.ffzyapi.com/api.php/provide/vod/"
+    },
+    {
+      "name": "速播資源",
+      "api": "https://suapi.qclm.top/api.php/provide/vod/"
     }
   ]
 }
